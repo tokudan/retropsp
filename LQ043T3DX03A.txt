@@ -1,0 +1,60 @@
+SHARP LQ043T3DX03A Mechanical features
+Panel Size: 4.3 inch
+Dot Resolution: 480(RGB)×272 (WQVGA)
+Pixel Configuration: RGB Vertical Stripe
+Pixel Density: 128 PPI
+Aspect Ratio: 16:9 (H:V)
+Form Factor: Flat Rectangle Display
+Pixel Pitch: 0.198×0.198 mm (H×V)
+Weight: 50g (Typ.)
+Surface: Clear, Hard coating
+Active Area: 95.04×53.856 mm (H×V)
+Outline Dimension: 105.5×67.2 mm (H×V)
+Outline Depth: 3.95 (Typ.) mm
+Landscape or Portrait: Landscape type
+Touch Panel: Without
+Bezel Area: 98.7×57.5 mm (H×V)
+
+SHARP LQ043T3DX03A Optical features
+Display Mode: ASV, Normally Black, Transmissive
+Brightness: 165 cd/m2 (Typ.)
+Contrast Ratio 1: ASV, Normally Black, Transmissive
+Display Color: 16.7M (8-bit)
+Response Time: 30/30 (Typ.)(Tr/Td)
+Viewing Angle: 80/80/80/80 (Typ.)(CR≥10) (L/R/U/D)
+Viewing Direction: Symmetry
+White color Chromaticity: Wx:0.296; Wy:0.343
+White Variation: 1.45 (Max.)(5 points)
+
+SHARP LQ043T3DX03A Electronics feature
+Vertical Frequency: 60Hz
+Reverse Scan: No
+Time Controller (T-CON): Embedded T-CON
+
+SHARP LQ043T3DX03A Backlight system
+Lamp Position: Edge light type
+Lamp Type: WLED
+Interface Type: (Flexible printed circuit / Flexible flat cable)
+Lamp Driver Board 1: 7S1P
+Lamp Amount: 7S1P
+Lamp Shape: 1 string
+Lamp Voltage: 29.4V (Typ.)
+Lamp Current: 18/20mA (Typ./Max.)
+Backlight Interface (Pin Pitch): 0.5 mm
+Backlight Interface (Pins): 4 pins
+Backlight Interface (Amount): 1 pcs
+Backlight Interface (Configuration): BLE-4PINS-CNNA
+
+SHARP LQ043T3DX03A Signal connector
+Signal Category: Parallel RGB
+Signal Class: Parallel RGB
+Input Voltage for Panel: 2.5/5.0V (Typ.)(VCC/AVDD)
+Input Current for Panel: 1.2/10mA (Typ.)(ICC/AIDD)
+Interface Type: FPC (Flexible printed circuit / Flexible flat cable)
+Signal Interface (Pin Pitch): 0.5 mm
+Signal Interface (Pins): 40 pins
+Signal Interface (Amount): 1 pcs
+Signal Interface (Configuration): DRGB-40P1C8B-060B
+Voltage for Display Signals: VIL≤0.2VCC; VIH≥0.8VCC
+
+

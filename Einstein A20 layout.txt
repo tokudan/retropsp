@@ -1,0 +1,50 @@
+Layout:
+
+60 x 40
+
+                                                LCD?.........  
+     0        1         2         3         4         5         6       
+     123456789012345678901234567890123456789012345678901234567890       
+     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       
+    BE                                                          FD 01  .
+    B                          O O                               D  2  .
+    B                                                            D  3  .
+    B                         +RTC-                              D  4  .
+    B   O                                                        D  5  .
+    B   O                                                        D  6  .
+    B  PWR                                                       D  7  .
+    B  PWR                                                       D  8  .
+    B   O                                                        D  9  .
+    B   O                                                        D 10  .
+    B _____                                                      D  1  .
+    B |   |                                                      D  2  .
+    B | O |                                                      D  3  .
+    B |   |                                                      D  4  LCD?
+    B | O |                                                      D  5  LCD Clock?
+    B |   |                                                      D  6  
+    B |___|                                                      D  7  
+    B  BAT                                                       D  8  
+    B    ^                                                       D  9  
+    B   /U|                                                      D 20  
+    B  /SB|                                                      D  1  
+    B  |US|                                                      D  2  
+    B  |BU|                                                      D  3  
+    B  \SB|                                                      D  4  
+    B   \U|                                                      D  5  
+    B    U                                                       D  6  
+    B                                                            D  7  
+    B  LED                                                       D  8  
+    B                                                            D  9  
+    B   O TX                                                     D 30  
+    B                                                            D  1  
+    B   O RX                                                     D  2  
+    B                                                            D  3  
+    B   O GND                                                    D  4  
+    B                                                            D  5  
+    B                                                            D  6  
+    B                                                            D  7  
+    B                                                            D  8  
+    B                                                            D  9  
+    BG                                                          HD 40  
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC      
+                                                                       

@@ -1,0 +1,20 @@
+PSP Hardware:
+	- LCD: LQ043T3DX03A
+Platte Fabrikat	SHARP
+Platte Modell	LQ043T3DX03A
+Platte Typ	a-Si TFT-LCDPanel
+Platte Größe	4.3"
+Auflösung	480(RGB)×272 (WQVGA)
+Display-Modus	ASV, Normally Black, Transmissive
+Oberfläche	Clear, Hard coating
+Helligkeit	165 cd/m2 (Typ.)
+Kontrastverhältnis	400 : 1 (Typ.) (Transmissive)
+Anzeigefarben	16.7M (8-bit)
+Reaktionszeit	30/30 (Typ.)(Tr/Td) (ms)
+Blickwinkel	80/80/80/80 (Typ.)(CR?10) (L/R/U/D)
+Frequenz	
+Lampentyp	WLED
+Signalschnittstelle	Parallel RGB
+Eingangsspannung	2.5/5.0V (Typ.)(VCC/AVDD)
+
+

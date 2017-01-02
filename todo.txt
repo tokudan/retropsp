@@ -1,0 +1,4 @@
+- 40 pin FPC breakout board: Pin header (2x 20 single line + 1x 2x20)
+
+- Einstein A20 Pin Map bauen bzw. besorgen (Mail an Pollin geschickt)
+

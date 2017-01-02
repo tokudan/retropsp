@@ -1,0 +1,110 @@
+HELLO! BOOT0 is starting!
+boot0 version : 3.0.0
+dram size =1024
+card boot number = 2
+card no is 2
+sdcard 2 line count 0
+[mmc]: cmd 8 timeout, err 0x00000100
+[mmc]: mmc cmd 8 err 0x00000100
+[mmc]: cmd 55 timeout, err 0x00000100
+[mmc]: mmc cmd 55 err 0x00000100
+[mmc]: SD/MMC Card: 4bit, capacity: 7475MB
+[mmc]: vendor: Man 0x00880103 Snr 0x219e0079
+[mmc]: product: NCard
+[mmc]: revision: 2.0
+sdcard 2 init ok
+The size of uboot is 0x000a4000.
+sum=0x550b2b5e
+src_sum=0x550b2b5e
+Succeed in loading uboot from sdmmc flash.
+Ready to disable icache.
+Jump to secend Boot.
+[      0.223]
+
+U-Boot 2011.09-rc1-00003-ge89ab14-dirty (Jan 03 2014 - 12:57:33) Allwinner Technology 
+
+[      0.232]version: 1.1.0
+[      0.235]pmbus:   ready
+[      0.340]PMU: AXP209
+[      0.343]PMU: AXP20x found
+[      0.346]PMU: bat ratio = 100
+[      0.350]after set, dcdc2 =1450mv
+[      0.353]PMU: dcdc2 1450
+[      0.356]PMU: pll1 912 Mhz
+boot_clock = 912
+dcdc2_vol = 1450
+[      0.363]after set, dcdc2 =1450mv
+dcdc3_vol = 1300
+ldo2_vol = 3000
+ldo3_vol = 2800
+ldo4_vol = 2800
+power_start = 1
+storage_type = -1
+usb_recovery = 1
+find power_sply to end
+fel key old mode
+run key detect
+no key found
+no key input
+dram_para_set start
+dram_para_set end
+[      0.399]DRAM:  1 GiB
+relocation Offset is: 35b23000
+donn't initialize ther user_gpio (main_key:boot_init_gpio)
+DRV_DISP_Init: opened
+[      0.613]boot_disp.output_type=1
+[      0.617]boot_disp.output_mode=4
+[      0.620]boot_disp.auto_hpd=0
+workmode = 0
+MMC:	 2
+SUNXI SD/MMC: 2
+[mmc]: cmd 8 timeout, err 100
+[mmc]: mmc cmd 8 err 0x00000100
+mmc send if cond failed
+[mmc]: cmd 55 timeout, err 100
+[mmc]: mmc cmd 55 err 0x00000100
+send app cmd failed
+PART_SUPPORT mmc->boot1_lba = 8000
+Man 880103 Snr 219e0079
+NCard
+2.0
+---------------MMC version 4.5---------------
+---------------mmc->clock 52000000-----------
+---------------mmc->bus_width 4--------------
+boot0 capacity: 4000KB,boot1 capacity: 4000KB
+[      0.716]sunxi flash init ok
+In:    serial
+Out:   serial
+Err:   serial
+--------fastboot partitions--------
+-total partitions:11-
+-name-        -start-       -size-      
+bootloader  : 1000000       2000000     
+env         : 3000000       1000000     
+boot        : 4000000       1000000     
+system      : 5000000       20000000    
+recovery    : 25000000      2000000     
+databk      : 27000000      10000000    
+misc        : 37000000      1000000     
+private     : 38000000      1000000     
+data        : 39000000      40000000    
+cache       : 79000000      14000000    
+UDISK       : 8d000000      0           
+-----------------------------------
+base bootcmd=run setargs_mmc boot_normal
+bootcmd set setargs_mmc
+key 0
+recovery key high 6, low 4
+cant find fstbt value
+to be run cmd=run setargs_mmc boot_normal
+the user data'magic is bad
+WORK_MODE_BOOT
+sunxi_bmp_display
+WORK_MODE_BOOT
+[      0.816]Hit any key to stop autoboot:  0 
+read boot or recovery all
+[      1.416]sunxi flash read :offset 4000000, 12917778 bytes OK
+[      1.425]ready to boot
+[      1.427]
+Starting kernel ...
+

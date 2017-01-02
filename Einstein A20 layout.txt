@@ -1,26 +1,26 @@
 Layout:
 
 60 x 40
-
-                                                LCD?.........  
-     0        1         2         3         4         5         6       
+                                                    RRRRRRRRGGGGG G     
+                                                    LCD?.........       
+     0        1         2         3         4       | 5         6       
      123456789012345678901234567890123456789012345678901234567890       
      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       
-    BE                                                          FD 01  .
-    B                          O O                               D  2  .
-    B                                                            D  3  .
-    B                         +RTC-                              D  4  .
-    B   O                                                        D  5  .
-    B   O                                                        D  6  .
-    B  PWR                                                       D  7  .
-    B  PWR                                                       D  8  .
-    B   O                                                        D  9  .
-    B   O                                                        D 10  .
+    BE                                                          FD 01 G.
+    B                          O O                               D  2 G.
+    B                                                            D  3 B.
+    B                         +RTC-                              D  4 B.
+    B   O                                                        D  5 B.
+    B   O                                                        D  6 B.
+    B  PWR                                                       D  7 B.
+    B  PWR                                                       D  8 B.
+    B   O                                                        D  9 B.
+    B   O                                                        D 10 B.
     B _____                                                      D  1  .
     B |   |                                                      D  2  .
     B | O |                                                      D  3  .
     B |   |                                                      D  4  LCD?
-    B | O |                                                      D  5  LCD Clock?
+    B | O |                                                      D  5  LCD Clock? ca. 30 Hz
     B |   |                                                      D  6  
     B |___|                                                      D  7  
     B  BAT                                                       D  8  

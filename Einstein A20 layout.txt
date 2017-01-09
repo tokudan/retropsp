@@ -1,50 +1,52 @@
 Layout:
+Pin 1: C1, counter-clockwise
 
 60 x 40
-                                                    RRRRRRRRGGGGG G     
-                                                    LCD?.........       
-     0        1         2         3         4       | 5         6       
-     123456789012345678901234567890123456789012345678901234567890       
-     AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       
-    BE                                                          FD 01 G.
-    B                          O O                               D  2 G.
-    B                                                            D  3 B.
-    B                         +RTC-                              D  4 B.
-    B   O                                                        D  5 B.
-    B   O                                                        D  6 B.
-    B  PWR                                                       D  7 B.
-    B  PWR                                                       D  8 B.
-    B   O                                                        D  9 B.
-    B   O                                                        D 10 B.
-    B _____                                                      D  1  .
-    B |   |                                                      D  2  .
-    B | O |                                                      D  3  .
-    B |   |                                                      D  4  LCD?
-    B | O |                                                      D  5  LCD Clock? ca. 30 Hz
-    B |   |                                                      D  6  
-    B |___|                                                      D  7  
-    B  BAT                                                       D  8  
-    B    ^                                                       D  9  
-    B   /U|                                                      D 20  
-    B  /SB|                                                      D  1  
-    B  |US|                                                      D  2  
-    B  |BU|                                                      D  3  
-    B  \SB|                                                      D  4  
-    B   \U|                                                      D  5  
-    B    U                                                       D  6  
-    B                                                            D  7  
-    B  LED                                                       D  8  
-    B                                                            D  9  
-    B   O TX                                                     D 30  
-    B                                                            D  1  
-    B   O RX                                                     D  2  
-    B                                                            D  3  
-    B   O GND                                                    D  4  
-    B                                                            D  5  
-    B                                                            D  6  
-    B                                                            D  7  
-    B                                                            D  8  
-    B                                                            D  9  
-    BG                                                          HD 40  
-     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC      
-                                                                       
+      1         1         1         1         1         1
+      6         5         4         3         2         1
+      098765432109876543210987654321098765432109876543210987654321
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  1  BE                                                          FD 100  LCD0 D13
+  2  B                          O O                               D   9  LCD0
+  3  B                                                            D   8  LCD0 D15
+  4  B                         +RTC-                              D   7  LCD0
+  5  B   O                                                        D   6  LCD0
+  6  B   O                                                        D   5  LCD0
+  7  B  PWR                                                       D   4  LCD0
+  8  B  PWR                                                       D   3  LCD0 D20
+  9  B   O                                                        D   2  LCD0
+170  B   O                                                        D   1  LCD0
+  1  B _____                                                      D  90  LCD0 D23
+  2  B |   |                                                      D   9  LCD0 CLK
+  3  B | O |                                                      D   8  LCD0 DE
+  4  B |   |                                                      D   7  LCD0 HSYNC
+  5  B | O |                                                      D   6  LCD0 VSYNC
+  6  B |   |                                                      D   5
+  7  B |___|                                                      D   4
+  8  B  BAT                                                       D   3
+  9  B    ^                                                       D   2
+180  B   /U|                                                      D   1
+  1  B  /SB|                                                      D  80
+  2  B  |US|                                                      D   9
+  3  B  |BU|                                                      D   8
+  4  B  \SB|                                                      D   7
+  5  B   \U|                                                      D   6
+  6  B    U                                                       D   5
+  7  B                                                            D   4
+  8  B  LED                                                       D   3
+  9  B                                                            D   2
+190  B   O TX                                                     D   1
+  1  B                                                            D  70
+  2  B   O RX                                                     D   9
+  3  B                                                            D   8
+  4  B   O GND                                                    D   7
+  5  B                                                            D   6
+  6  B                                                            D   5
+  7  B                                                            D   4
+  8  B                                                            D   3
+  9  B                                                            D   2
+200  BG                                                          HD   1
+      CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+      123456789012345678901234567890123456789012345678901234567890
+               1         2         3         4         5         6
+
